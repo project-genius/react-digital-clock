@@ -1,0 +1,78 @@
+body
+{
+ background-color: #FF8C00;
+}
+
+h1{
+    padding: 0px;
+}
+
+.App
+{
+background-color:#181818;
+align-items: center;
+justify-content: center;
+color: white;
+font-family: 'Verdana', monospace;
+font-weight: 500;
+margin: auto;
+border: 5px solid #234668;
+border-width: 40px;
+padding: 10px;
+animation: glow1 1s ease-in-out infinite alternate;
+}
+
+.out-div
+{
+    border: 5px solid #181818;
+    border-radius: 15px;
+    border-width: 40px;
+    width:25%;
+    margin: auto;
+    margin-top: 250px;
+    box-shadow: 0 0 40px #ffff;
+}
+
+
+.timeString
+{
+    text-shadow: 0 0 8px #fff;
+
+}
+
+.day-div
+{
+  text-align: center;
+  text-shadow: 0 0 15px #FF8C00;
+  font-size: 20px;
+  color: #FF8C00;
+}
+
+.time-div
+{
+  text-align: center;
+  text-shadow: 0 0 8px #fff;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+
+@keyframes glow {
+    from {
+      box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    }
+    
+    to {
+      box-shadow: 0 0 15px #fff;
+    }
+  }
+
+  @keyframes glow1 {
+    from {
+      box-shadow: 0 0 10px yellow, 0 0 20px yellow;
+    }
+    
+    to {
+      box-shadow: 0 0 20px #FF8C00;
+    }
+  }
